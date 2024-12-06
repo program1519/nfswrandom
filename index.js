@@ -107,7 +107,7 @@ app.post("/search", async (req, res) => {
                         text-align: center;
                         margin-bottom: 20px;
                     }
-                    /* Modal styles */
+                    
                     .modal {
                         display: none;
                         position: fixed;
@@ -160,7 +160,7 @@ app.post("/search", async (req, res) => {
                     ${mediaLinks}
                 </div>
 
-                <!-- Modal for Full Image/Video -->
+               
                 <div id="myModal" class="modal">
                     <span class="close" onclick="closeModal()">&times;</span>
                     <img class="modal-content" id="modalImage" />
@@ -172,7 +172,6 @@ app.post("/search", async (req, res) => {
                 </footer>
 
                 <script>
-                    // Function to open the modal
                     function openModal(src) {
                         var modal = document.getElementById("myModal");
                         var modalImage = document.getElementById("modalImage");
